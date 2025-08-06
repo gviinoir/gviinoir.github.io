@@ -1841,7 +1841,7 @@ input, select, textarea {
 			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			background-color: transparent;
 			display: inline-block;
-			text-align: left;
+			text-align: center;
 			color: inherit;
 		}
 
@@ -2797,7 +2797,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 2em 0 3em 0 ;
 	}
 
 		#header .logo {
@@ -2806,7 +2806,7 @@ input, select, textarea {
 			color: inherit;
 			font-weight: 900;
 			letter-spacing: 0.35em;
-			margin: 0 0 2.5em 0;
+			margin: 0 0 0 0;
 			text-decoration: none;
 			text-transform: uppercase;
 		}
@@ -3156,13 +3156,13 @@ input, select, textarea {
 			}
 
 			#footer > .inner section:nth-child(1) {
-				width: calc(66% - 2.5em);
-				margin-right: 2.5em;
+				width: 100%;
+				margin-right: 0;
 			}
 
 			#footer > .inner section:nth-child(2) {
-				width: calc(33% - 2.5em);
-				margin-left: 2.5em;
+				width: 100%;
+				margin-left: 0;
 			}
 
 			#footer > .inner .copyright {
@@ -3181,7 +3181,7 @@ input, select, textarea {
 				#footer > .inner .copyright li {
 					display: inline-block;
 					border-left: solid 1px rgba(88, 88, 88, 0.15);
-					line-height: 1;
+					line-height: 1em;
 					padding: 0 0 0 1em;
 					margin: 0 0 0 1em;
 				}
