@@ -3,17 +3,19 @@ body.lb-disable-scrolling {
 }
 
 .lightboxOverlay {
-  position: absolute;
+  position: fixed !important;
   top: 0;
   left: 0;
   z-index: 9999;
   background-color: black;
   opacity: 0.9;
   display: none;
+  height: 100% !important;
+  width: 100% !important;
 }
 
 .lightbox {
-  position: absolute;
+  position: fixed !important;
   left: 0;
   width: 100%;
   z-index: 10000;
@@ -21,6 +23,8 @@ body.lb-disable-scrolling {
   line-height: 0;
   font-weight: normal;
   outline: none;
+  top: 50% !important;
+  transform: translateY(-50%);
 }
 
 .lightbox .lb-image {
