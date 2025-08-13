@@ -181,5 +181,17 @@
 						$menu._hide();
 
 			});
+	
+			function downloadFile(url, filename) {
+			// Create a temporary anchor element
+			const link = document.createElement('a');
+
+			// Set the href attribute to the URL of the file to be downloaded
+			link.href = url;
+
+			// Set the download attribute to specify the default filename for the downloaded file
+			link.download = filename;
+
+}
 
 })(jQuery);
