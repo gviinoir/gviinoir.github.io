@@ -77,34 +77,6 @@ input, select, textarea {
 		height: clamp(1120px, calc(3730px - 500vw), 1670px)
 }
 
-/*
-@media screen and (min-width:1700px){
-	iframe.embed {
-		height: 100vh;
-	}
-}
-
-@media screen and (max-width:1680px){
-	iframe.embed {
-		height: 110vh;
-	}
-}
-
-@media screen and (max-width:480px){
-	iframe.embed {
-		height: 130vh;
-	}
-}
-
-@media screen and (max-width:360px){
-	iframe.embed {
-		height: 160vh;
-	}
-}
-*/
-
-
-
 /* Basic */
 
 	@-ms-viewport {
