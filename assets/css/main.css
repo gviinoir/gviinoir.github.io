@@ -72,6 +72,39 @@ input, select, textarea {
 	appearance: none;
 }
 
+	iframe.embed {
+		width: 100%;
+		height: clamp(1120px, calc(3730px - 500vw), 1670px)
+}
+
+/*
+@media screen and (min-width:1700px){
+	iframe.embed {
+		height: 100vh;
+	}
+}
+
+@media screen and (max-width:1680px){
+	iframe.embed {
+		height: 110vh;
+	}
+}
+
+@media screen and (max-width:480px){
+	iframe.embed {
+		height: 130vh;
+	}
+}
+
+@media screen and (max-width:360px){
+	iframe.embed {
+		height: 160vh;
+	}
+}
+*/
+
+
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3295,7 +3328,7 @@ input, select, textarea {
 		width: 100%;
 		max-width: 68em;
 		margin: 0 auto;
-		padding: 0 2em;
+		padding: 0 1em;
 	}
 
 		@media screen and (max-width: 736px) {
