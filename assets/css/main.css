@@ -74,7 +74,7 @@ input, select, textarea {
 
 	iframe.embed {
 		width: 100%;
-		height: clamp(1120px, calc(3730px - 500vw), 1670px)
+		height: clamp(1120px, calc(3730px - 500vw), 1680px)
 }
 
 /*
